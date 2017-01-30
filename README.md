@@ -1,3 +1,3 @@
-# SLEDGE
+# 1213
 
-- An awesome two person game, using sledges.
+- A boring two person game, using numbers. 
