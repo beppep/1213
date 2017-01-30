@@ -14,7 +14,7 @@ draw = ->
   text(b,width/2,height/4*3)
   #for item, i in touches
   for touch, i in touches
-    text(touch, 100, 100+i*50)
+    text("#{touch.x} #{touch.y} #{touch.id}", 100, 100+i*50)
 
 
   ptouches = touches
