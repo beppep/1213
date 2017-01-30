@@ -13,7 +13,8 @@ draw = ->
   #rotate(TWO_PI)
   text(b,width/2,height/4*3)
   #for item, i in touches
-  text(touches, 10, 10)
+  for touch, i in touches
+    text(touch, 100, 100+i*50)
 
 
   ptouches = touches
