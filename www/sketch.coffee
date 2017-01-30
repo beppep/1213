@@ -12,9 +12,9 @@ draw = ->
   text(a,width/2,height/4)
   #rotate(TWO_PI)
   text(b,width/2,height/4*3)
+  #for item, i in touches
+  text(touches, 10, 10)
 
-mousePressed = ->
-  if mouseY > height/2
-    b++
-  else
-    a++
+
+  ptouches = touches
+
