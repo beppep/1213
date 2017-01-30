@@ -19,3 +19,5 @@ draw = ->
 
   ptouches = touches
 
+windowResized = ->
+  createCanvas(windowWidth,windowHeight)
